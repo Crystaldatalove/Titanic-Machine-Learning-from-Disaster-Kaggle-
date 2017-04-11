@@ -8,16 +8,26 @@ Dataset: train.csv, test.csv
 
 Dataset dictionary - the dataset consists of the following fields:
 
-•survival	Survival	
+•survival	Survival
+
 •pclass	Ticket class	
+
 •Key: 0 = No; 1 = Yes
+
 •sex	Sex	
+
 •Age	Age in years	
+
 •sibsp	# of siblings / spouses aboard the Titanic	
+
 •parch	# of parents / children aboard the Titanic	
+
 •ticket	Ticket number	
-•fare	Passenger fare	
+
+•fare	Passenger fare
+
 •cabin	Cabin number	
+
 •embarked	Port of Embarkation	C = Cherbourg, Q = Queenstown, S = Southampton
 
 •pclass: A proxy for socio-economic status (SES)
@@ -28,10 +38,15 @@ Dataset dictionary - the dataset consists of the following fields:
 •age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
 
 •sibsp: The dataset defines family relations in this way...
+
 •Sibling = brother, sister, stepbrother, stepsister
+
 •Spouse = husband, wife (mistresses and fiancés were ignored)
 
 •parch: The dataset defines family relations in this way...
+
 •Parent = mother, father
+
 •Child = daughter, son, stepdaughter, stepson
+
 •Some children travelled only with a nanny, therefore parch=0 for them.
