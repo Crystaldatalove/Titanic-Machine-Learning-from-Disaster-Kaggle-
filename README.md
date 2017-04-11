@@ -50,3 +50,5 @@ Dataset dictionary - the dataset consists of the following fields:
 •Child = daughter, son, stepdaughter, stepson
 
 •Some children travelled only with a nanny, therefore parch=0 for them.
+
+Final result: LRFeatureEngineering3-2.csv
